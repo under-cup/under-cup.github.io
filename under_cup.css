@@ -16,6 +16,8 @@ a {
     justify-content: space-between;
 }
 
+.br{top:350px;}
+
 .block_row_members {
     position: relative;
     margin-left: 200px;
@@ -264,7 +266,7 @@ body {font-family: 'Istok Web', sans-serif;}
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
 
   .split {width: 95%;margin: 25px 2.5%;}
   .round {width:21%;}
@@ -281,12 +283,13 @@ body {font-family: 'Istok Web', sans-serif;}
   .line:before {width: 50px;}
   .line:after {width: 35px;}
   .rules {max-width: 400px;}
-  .name {font: 40px "Neuton";} 
-  p {width: 20em; left: 12%; top:10%; margin: 0 0 0 0;}
+  .name {font: 40px "Neuton"; padding: 0; } 
+  p {width: 20em; top:10%; margin: 0 0 0 0; left: 7.5%;}
   .rules {font-size: 15px;}
   .tits {font-size: 40px;}
-  .round_members {width: 80px; height: 80px; margin-top: 10px;}
-  .member_name {font-size:12px; margin-top: 5px;}
-  .block_row_members {margin-left: 20px; margin-right: 20px;}
-  .box{height: 80vh;}
+  .round_members {width: 50px; height: 50px; margin-top: 10px;}
+  .member_name {font-size:10px; margin-top: 5px;}
+  .block_row_members {margin-left: 5px; margin-right: 5px; flex-basis: 50%; width: 283px;}
+  .br{top:200px;}
+  .box{height: 60vh;}
 }
